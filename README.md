@@ -4,6 +4,8 @@ A Streamlit app that estimates a Steam game's owner count and revenue from its p
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
 
+![App screenshot](docs/ScreenshotMain.png)
+
 ## Features
 
 - **Revenue and owner estimate** — pulls the live review count and price from Steam, then applies the community-standard **Boxleiter method** (reviews × a multiplier = owners) and a net-revenue share (~50% of gross after Steam's cut, refunds and regional pricing).
@@ -11,6 +13,10 @@ A Streamlit app that estimates a Steam game's owner count and revenue from its p
 - **Adjustable assumptions** — sliders for the multiplier and the share kept, plus a lower / current / higher comparison so the result reads as a range instead of one precise-looking number.
 - **AI page audit** — sends the game's title, genres, community tags and short description to the AI model, which returns concrete suggestions for hooks, keywords and clarity. You can regenerate the audit with one click.
 - **Clean dashboard** — game header with the store image, genre and tag chips, tabbed results, example links to try, and clear messages for free games, missing reviews or bad links.
+
+## Example
+
+![App screenshot](docs/ScreenshotRecommendation.png)
 
 ## How it works
 
